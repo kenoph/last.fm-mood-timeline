@@ -1,6 +1,6 @@
 # Last.FM Mood Timeline #
 
-Nice script to visualize the mood of a user based on its listening history.
+Nice script to visualize the mood of a Last.FM user based on his listening history.
 
 ![Example](example.jpg)
 

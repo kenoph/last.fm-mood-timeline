@@ -20,7 +20,7 @@ settings = {
     'only_main_mood': False,
     'output': 'out.svg',
     'use_weight': True,
-    'weeks_to_fetch': 2 #60
+    'weeks_to_fetch': 60
 }
 
 LASTFM_USERNAME = "empty91"
@@ -174,6 +174,9 @@ if settings['normalize']:
     for i, y_values in enumerate(zip(*final_moods_y)):
         #print y_values
         ss = sum(y_values)
+        if ss < 1:
+            ss = 1
+            print "Sum = 0... :/"
 
         for j in xrange(len(y_values)):
             final_moods_y[j][i] /= float(ss)

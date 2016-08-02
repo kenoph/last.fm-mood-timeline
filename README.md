@@ -2,7 +2,7 @@
 
 Nice script to visualize the mood of a Last.FM user based on his listening history.
 
-![Example](example.jpg)
+![Example](example.png)
 
 Run it with `python mood_timeline.py`.
 

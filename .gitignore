@@ -4,6 +4,7 @@
 # Mine
 SECRETS.json
 metadata.json
+out/
 
 # linux text editor backups
 *~
